@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <% include partials/head.html %>
+    <title><%= title %></title>
+</head>
+
+<body>
+    <% include partials/nav.html %>
+    <div class="container text-center">
+        <main role="main" class="inner cover animated zoomInUp">
+            <h1>jorur_</h1>
+            <p class="lead">Página para realizar pruebas con NodeJS.<br>
+                Para consultas o sugerencias ir a contactar.
+            </p>
+            <p class="lead">
+                <a href="/contact" class="btn btn-lg btn-secondary">Contactar</a>
+            </p>
+        </main>
+    </div>
+
+    <div id="rrss">
+        <div class="container">
+            <div class="row text-white p-5 text-center">
+                <div class="col-sm-6">
+                    <a href="https://github.com/jorgeurrutia/jorur" target="_blank"> <i class="fab fa-github fa-10x"></i></a>
+                </div>
+                <div class="col-sm-6">
+                    <h3>Código fuente en Github</h3>
+                    <p>
+                        Desarrollada en NodeJS utilizando el editor Visual Studio Code.<br>
+                        Visita mi Github para revisar los fuentes de esta web.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <% include partials/footer.html %>
+</body>
+
+</html>
